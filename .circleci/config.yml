@@ -20,6 +20,11 @@ jobs:
             echo "Hello, World!"
             echo "Hello, CircleCI!"
             echo "Hello, CircleCI?"
+      - run:
+          name: "--- Second Step ---"
+          command: |
+            ls -al
+            echo "Hello, World!"
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
