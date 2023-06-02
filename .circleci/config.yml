@@ -19,6 +19,7 @@ jobs:
           command: |
             echo "Hello, World!"
             echo "Hello, CircleCI!"
+            echo "Hello, CircleCI?"
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
