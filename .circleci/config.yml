@@ -10,9 +10,9 @@ jobs:
     # See: https://circleci.com/docs/configuration-reference/#executor-job
     docker:
       - image: yu2ochiai/linuxtool:0.90
-        auth:
-          username: yu2ochiai
-          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+        #        auth:
+        #  username: yu2ochiai
+        #  password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
 
         #- image: cimg/base:stable
     # Add steps to the job
